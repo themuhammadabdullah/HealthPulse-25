@@ -9,6 +9,7 @@ import {
   ChevronLeft,
   LogOut,
   X,
+  Inbox,
   HelpCircle
 } from "lucide-react";
 import { useDispatch } from "react-redux";
@@ -50,6 +51,8 @@ const Sidebar = () => {
     //   path: "/dashboard/doctors",
     // },
     { name: "Manage FAQs", icon: <HelpCircle size={20} />, path: "/dashboard/manage-faqs" },
+    { name: "User Management", icon: <User size={20} />, path: "/dashboard/user-management" },
+    { name: "Contact Management", icon: <Inbox size={20} />, path: "/dashboard/contact-management" },
     { name: "Profile", icon: <User size={20} />, path: "/dashboard/profile" },
   ];
 

@@ -24,6 +24,8 @@ import MonthlyMedicine from "./components/Dashboard/MonthlyMedicine";
 import YearlyMedicine from "./components/Dashboard/YearlyMedicine";
 import ManageFAQs from "./components/Dashboard/ManageFAQs";
 import FAQPage from "./components/FAQPage";
+import ContactManagement from "./components/Dashboard/ContactManagement";
+import UserManagement from "./components/Dashboard/UserManagement";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -59,6 +61,13 @@ const router = createBrowserRouter([
               {
                 path:"manage-faqs",
               element:<ManageFAQs/>
+              },
+              {
+path:"contact-management",
+element:<ContactManagement/>
+              },{
+                path:"user-management",
+                element:<UserManagement/>
               }
             ],
           },
