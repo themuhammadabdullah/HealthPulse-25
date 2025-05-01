@@ -10,7 +10,8 @@ import {
   LogOut,
   X,
   Inbox,
-  HelpCircle
+  HelpCircle,
+  Bell
 } from "lucide-react";
 import { useDispatch } from "react-redux";
 import { logout } from "../../store/slices/authSlice";
@@ -53,6 +54,7 @@ const Sidebar = () => {
     { name: "Manage FAQs", icon: <HelpCircle size={20} />, path: "/dashboard/manage-faqs" },
     { name: "User Management", icon: <User size={20} />, path: "/dashboard/user-management" },
     { name: "Contact Management", icon: <Inbox size={20} />, path: "/dashboard/contact-management" },
+    { name: "Alert Management", icon: <Bell size={20} />, path: "/dashboard/alert-management" },
     { name: "Profile", icon: <User size={20} />, path: "/dashboard/profile" },
   ];
 

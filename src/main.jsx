@@ -26,6 +26,7 @@ import ManageFAQs from "./components/Dashboard/ManageFAQs";
 import FAQPage from "./components/FAQPage";
 import ContactManagement from "./components/Dashboard/ContactManagement";
 import UserManagement from "./components/Dashboard/UserManagement";
+import AlertManagement from "./components/Dashboard/AlertManagement";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -68,6 +69,10 @@ element:<ContactManagement/>
               },{
                 path:"user-management",
                 element:<UserManagement/>
+              },
+              {
+                path:"alert-management",
+                element:<AlertManagement/>
               }
             ],
           },
