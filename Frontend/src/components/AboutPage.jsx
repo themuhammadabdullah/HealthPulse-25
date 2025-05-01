@@ -7,7 +7,7 @@ const AboutPage = () => {
   const features = [
     {
       icon: <CircleSlash className="w-6 h-6 text-blue-800" />,
-      title: "Intelligentsss Analytics",
+      title: "Intelligent Analytics",
       description: "Advanced AI algorithms for precise healthcare predictions"
     },
     {
