@@ -60,7 +60,7 @@ const ContactPage = () => {
     {
       icon: <Mail className="w-6 h-6 text-indigo-800" />,
       title: "Email Us",
-      info: "support@healthanalytica.com"
+      info: "suppojsjjssjthanalytica.com"
     },
     {
       icon: <Phone className="w-6 h-6 text-indigo-800" />,
